@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" name="design-properties">
+    <style>
+        .root-layout.styled-template {
+            .focus-colored-text {
+                color: $v-focus-color;
+            }
+        }
+    </style>
+</head>
+<body>
+    <vaadin-vertical-layout style-name="root-layout styled-template" size-full>
+        <vaadin-button _id="my-button" style-name="focus-colored-text">Button</vaadin-button>
+        <vaadin-label _id="my-label" style-name="hello-label"><b>Hello!</b> -How are you?</vaadin-label>
+    </vaadin-vertical-layout>
+</body>
+</html>
